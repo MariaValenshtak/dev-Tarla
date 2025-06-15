@@ -1,3 +1,65 @@
-h1 {
-    color: blue;
+.first-screen{
+    background-color: #FFC3A0;
 }
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+    padding-bottom: 18PX;
+}
+
+.content-info{
+    max-width: 462px;
+    margin-right: 48px;
+}
+
+.content-title{
+    font-family: 'Roboto';
+    font-size: 76px;
+    max-width: 364px;
+    margin-bottom: 33px;
+}
+
+.content-subtitle{
+    font-size: 18px;
+    max-width: 444px;
+    margin-bottom: 22px;
+}
+
+.content-img img{
+    width: 898px;
+    height: 564px;
+    width: 100%;
+}
+
+.content-img{
+    position: relative;
+}
+
+.content-img::after,
+.content-img::before{
+    content: '';
+    position: absolute;
+    bottom: 14px;
+    transform: translateY(-50%);
+    border: 1px solid #000;
+    width: 54px;
+    height: 36px;
+    cursor: pointer;
+    background-size: 30px 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-img::after {
+  background-image: url('./assets/img/left-arrow.svg');
+  right: 86px;
+}
+
+.content-img::before {
+  background-image: url('./assets/img/right-arrow.svg');
+  right: 24px;
+}
+

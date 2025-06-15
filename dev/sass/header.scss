@@ -1,8 +1,105 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+.header-top{
+	background-color: $secondary-color;
+	position: relative;
+}
+
+.header-row{
+	display: flex;
+	padding: 16px 52px;
+	align-items: center;
+}
+
+.delivery-message{
+	font-size: 14px;
+	color: #fff;
+    max-width: 868px;
+	padding-left: 176px;
+	line-height: 22px;
+}
+
+.postcode-input {
+	border: .3px solid #fff;
+	border-radius: 10px;
+	background-color: #405CE6;
+	width: 100%;
+	max-width: 150px;
+	margin-right: 8px;
+	margin-left: 44px;
+	padding: 14px 68px 14px 14px;
+}
+
+.postcode-input::placeholder{
+	color: #1B2660;
+	font-size: 11px;
+}
+
+.btn-check{
+	background-color: #fff;
+	border-radius: 35px;
+	border: none;
+	padding: 14px 30px;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+.btn-close{
+	background:none;
+	border: none;
+	position: absolute;
+	top: 16px;
+	right: 8px;
+	cursor: pointer;
+}
+
+.header-bottom{
+	background-color: $bg-color;
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 24px;
+}
+
+.header-bottom__left{
+	display: flex;
+}
+
+.header-bottom__right{
+	display: flex;
+	margin-left: auto;
+}
+
+.logo-tarla{
+	margin-right: 16px;
+}
+
+.nav__list{
+	display: flex;
+	padding: 41px 0 0 0;
+}
+
+.nav__item{
+	font-size: 14px;
+}
+
+.nav__item:nth-last-child(n+2){
+    margin-right: 16px;
+}
+
+.header-btn-wrap {
+  display: flex;
+  gap: 10px; 
+  align-items: center;
+}
+
+.btn-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn-icon img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 4px;
 }

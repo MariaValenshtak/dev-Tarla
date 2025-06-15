@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+
+}
+
+a{
+    border: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-family: $font-primary;
+    font-size: $font-size;
+    scroll-behavior: smooth;
+    color: $primary-color;
+}
+
+body{
+    // background-color: $bg-body;
+    // color: $color-text;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+.container{
+   padding: 0 16px;
+   margin: 0 auto;
+   max-width: 1408px;
+}
+
+.def-btn{
+    display: inline-block;
+    font-family: "Roboto";
+    font-size: 22px;
+    border: 1px solid #000;
+    padding: 12px 73px;
+    border-radius: 24px;
+}
