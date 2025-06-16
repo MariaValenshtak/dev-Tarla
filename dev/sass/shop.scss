@@ -1,0 +1,36 @@
+.shop{
+    background-color: $bg-color;
+    margin-bottom: 65px;
+}
+
+.shop__title{
+    font-family: $font-secondary;
+    font-size: 39px;
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 24px;
+}
+
+.shop__products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    padding-bottom: 74px;
+}
+
+.shop__product-name{
+    font-family: $font-secondary;
+    font-size: 27px;
+    max-width: 154px;
+    padding: 12px 0;
+}
+
+.shop__product-price{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.shop__product img{
+    width: 100%;
+}
