@@ -63,3 +63,12 @@
   right: 24px;
 }
 
+.content-info .def-btn{
+    border-color: $primary-color;
+    color: $primary-color;
+}
+
+.content-info .def-btn:hover{
+    background-color: $bg-color;
+}
+

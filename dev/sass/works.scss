@@ -1,0 +1,42 @@
+.works{
+    background-color: $bg-color;
+}
+
+.works-title{
+    font-family: $font-secondary;
+    font-size: 43px;
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 63px;
+}
+
+.process{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 42px;
+}
+
+.step{
+    text-align: center;
+}
+
+.step-title{
+    font-family: $font-secondary;
+    font-size: 27px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.step-subtitle{
+    font-size: 18px;
+    max-width: 320px;
+}
+
+.how-it-works {
+  text-align: center;
+}
+
+.how-it-works .def-btn{
+    margin-bottom: 64px;  
+}

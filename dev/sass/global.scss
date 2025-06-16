@@ -36,7 +36,14 @@ body{
     display: inline-block;
     font-family: "Roboto";
     font-size: 22px;
-    border: 1px solid #000;
+    border: 1px solid $secondary-color;
+    color: $secondary-color;
     padding: 12px 73px;
     border-radius: 24px;
+    transition: .4s ease;
+}
+
+.def-btn:hover{
+    background-color: $secondary-color;
+    color:#fff;
 }

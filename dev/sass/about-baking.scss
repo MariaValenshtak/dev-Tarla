@@ -1,0 +1,22 @@
+.about-baking{
+    background-color: $bg-color;
+    margin: 1px 0;
+}
+
+.about-baking-content{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     padding: 48px 0;
+}
+
+.about-baking__left{
+    margin-right: 48px;
+}
+
+.about-baking__description{
+    font-family: $font-secondary;
+    font-size: 40px;
+    max-width: 649px;
+   margin-bottom: 23px;
+}
