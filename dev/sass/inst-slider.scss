@@ -1,0 +1,36 @@
+.inst-slider{ 
+    background-color: #fff;
+    padding: 40px 0;
+   position: relative;
+    z-index: 2;
+}
+
+.slider-title{
+    font-family: $font-secondary;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 60px;
+    padding-bottom: 26px;
+    text-align: center;
+}
+
+.swiper-wrapper {
+  display: flex; 
+  margin-bottom: 64px;     
+}
+
+.swiper-slide {
+  width: auto;   
+  flex-shrink: 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+}
+
+.inst-slider .container{
+    padding: 0;
+}
