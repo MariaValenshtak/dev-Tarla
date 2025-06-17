@@ -1,6 +1,8 @@
 .benefits{
     background-color: $bg-color;
     padding: 16px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .benefits-row{
@@ -32,8 +34,10 @@
     padding-top: 16px;
     line-height: 68px;
     padding-bottom: 20px;
+    line-height: 68px;
 }
 
 .benefits-card__subtitle{
     font-size: 18px;
+    line-height: 28px;
 }

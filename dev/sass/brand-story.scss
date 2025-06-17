@@ -1,0 +1,78 @@
+.brand-story{
+    background-color: $bg-color;
+}
+
+.story-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.story-item--decor-right::after {
+  content: '';
+  position: absolute;
+  top: -121px;
+  right: 46px;
+  width: 400px;
+  height: 400px;
+  background: url('./assets/img/decor-burst.svg') no-repeat center/contain;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.story-item--decor-left::before {
+  content: '';
+  position: absolute;
+bottom: -152px;
+right: 675px;
+  width: 400px;
+  height: 400px;
+  background: url('./assets/img/decor-burst.svg') no-repeat center/contain;
+  pointer-events: none;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.story-item__left img{
+    max-width: 100%;
+}
+
+.story-item__img{
+    margin-right: 48px;
+}
+
+.story-item__title{
+    margin-bottom: 26px;
+}
+
+.story-item__subtitle{
+    font-family: $font-secondary;
+    font-size: 26px;
+    max-width: 511px;
+    margin-bottom: 22px;
+    line-height: 40px;
+}
+
+.story-item .def-btn{
+    color: $primary-color;
+    border-color: $primary-color;
+}
+
+.story-item .def-btn:hover{
+    background-color: unset;
+    color: unset;
+    border-color: unset;
+    text-decoration: none;
+}
+
+.story-item--reversed {
+  flex-direction: row-reverse;
+  padding-top: 48px;
+  .story-item__img{
+    margin-left: 48px;
+  }
+}
