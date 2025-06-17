@@ -1,0 +1,27 @@
+.join{
+    background-color: $bg-color;
+    text-align: center;
+}
+
+.join-title{
+    font-family: $font-secondary;
+    font-size: 50px;
+    line-height: 72px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.join-title span{
+    font-family: $font-secondary;
+    font-size: 31px;
+    line-height: 44px;
+}
+
+.btn-join{
+     padding: 18px 145px;
+     border-radius: 10px;
+     background-color: #fff;
+     font-family: $font-secondary;
+     font-size: 17px;
+     margin-bottom: 32px;
+}

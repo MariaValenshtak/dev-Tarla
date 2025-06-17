@@ -1,3 +1,7 @@
+.header{
+	background-color: $bg-color;
+}
+
 .header-top{
 	background-color: $secondary-color;
 	position: relative;
@@ -53,11 +57,16 @@
 
 .header-bottom{
 	background-color: $bg-color;
-	display: flex;
-	justify-content: space-between;
 	padding: 16px 24px;
 	border-bottom: 1px solid #000;
 }
+
+.header-bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .header-bottom__left{
 	display: flex;
